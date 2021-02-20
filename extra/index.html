@@ -4,6 +4,16 @@
   <head>    
   </head>
 <body style="margin:0; padding:0; width: 100%; height: 100%;">
-    <iframe class="game-frame" style="border:0" title="WasmBoy Iframe Embed" width="640" height="576" allowfullscreen="true" src="https://wasmboy.app/iframe/?rom-name=IronBoy&play-poster=https://chazlouviere.com/extra/is_gb.bmp&rom-url=https://chazlouviere.com/extra/main.gb"> </iframe>
 </body>
 </html>
+
+<script>
+  const iframe = document.createElement('iframe');
+  iframe.style = "border:0";
+  iframe.title="WasmBoy Iframe Embed";
+  iframe.width="480";
+  iframe.height="432";
+  iframe.allowfullscreen="true";
+  iframe.src="https://wasmboy.app/iframe/?rom-name=IronBoy&play-poster=https://chazlouviere.com/extra/is_gb.bmp&rom-url=https://chazlouviere.com/extra/main.gb"
+  document.body.appendChild(iframe);
+</script>
