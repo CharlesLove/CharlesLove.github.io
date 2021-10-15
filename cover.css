@@ -56,3 +56,15 @@ body {
   color: #fff;
   background-color: #ffffff00;
 }
+
+/* Custom */
+.white-icon-button{
+  color: white;
+}
+.white-icon-button:hover{
+  color: gray;
+}
+
+.circled{
+  border-radius: 50%;
+}
